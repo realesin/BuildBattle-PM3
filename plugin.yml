@@ -1,0 +1,13 @@
+name: BuildBattle
+main: BuildBattle\BB
+api: [3.0.0]
+version: 1.0.0
+
+commands:
+    bb:
+        usage: /bb <make>
+        description: CreateGame
+permissions:
+    bb.op:
+        default: op
+  
